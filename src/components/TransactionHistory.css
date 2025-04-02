@@ -1,0 +1,100 @@
+/* components/TransactionHistory.css */
+.transaction-history {
+    padding: 1rem;
+  }
+  
+  .transaction-history h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .transactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  
+  .transactions-table th,
+  .transactions-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .transactions-table th {
+    background-color: #f5f7fa;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  .transactions-table tr:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .signature {
+    font-family: monospace;
+    font-size: 0.9rem;
+  }
+  
+  .status {
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  
+  .status.confirmed {
+    color: #27ae60;
+  }
+  
+  .status.finalized {
+    color: #2980b9;
+  }
+  
+  .status.processed {
+    color: #e67e22;
+  }
+  
+  .view-button {
+    background-color: #3a7bd5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-button:hover {
+    background-color: #2d62a9;
+  }
+  
+  .no-transactions {
+    text-align: center;
+    color: #666;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+  }
+  
+  @media (max-width: 768px) {
+    .transaction-history {
+      padding: 0.5rem;
+    }
+    
+    .transaction-history h2 {
+      font-size: 1.3rem;
+    }
+    
+    .transactions-table {
+      display: block;
+      overflow-x: auto;
+    }
+    
+    .transactions-table th,
+    .transactions-table td {
+      padding: 0.5rem;
+      font-size: 0.9rem;
+    }
+  }

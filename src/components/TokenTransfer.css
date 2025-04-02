@@ -1,0 +1,76 @@
+/* components/TokenTransfer.css */
+.token-transfer {
+    padding: 1rem;
+  }
+  
+  .token-transfer h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  .form-group input, .form-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .form-group input:focus, .form-group select:focus {
+    outline: none;
+    border-color: #3a7bd5;
+    box-shadow: 0 0 0 2px rgba(58, 123, 213, 0.2);
+  }
+  
+  .transfer-button {
+    background-color: #3a7bd5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .transfer-button:hover {
+    background-color: #2d62a9;
+  }
+  
+  .transfer-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  @media (max-width: 768px) {
+    .token-transfer {
+      padding: 0.5rem;
+    }
+    
+    .token-transfer h2 {
+      font-size: 1.3rem;
+    }
+    
+    .form-group input, .form-group select {
+      padding: 0.6rem;
+    }
+    
+    .transfer-button {
+      padding: 0.6rem 1.2rem;
+    }
+  }
