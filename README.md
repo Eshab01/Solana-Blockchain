@@ -45,8 +45,8 @@ Ensure that the following dependencies are installed:
 ### Steps to Run Locally
 1. **Clone the repository:**
    ```sh
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/Eshab01/Solana-Blockchain
+   cd Solana-Blockchain
    ```
 2. **Install dependencies:**
    ```sh
